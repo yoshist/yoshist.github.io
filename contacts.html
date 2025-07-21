@@ -10,7 +10,8 @@
 </head>
 
 <body>
-    <!-- Website content goes here -->
+
+   <!-- Website content goes here -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">SDY</a>
@@ -53,24 +54,32 @@
         </div>
     </nav>
     <!-- Navbar Ends -->
-
-    <div class="container d-flex flex-wrap justify-content-evenly p-5" style="gap: 5rem">
-        <div class="card" style="width: 30rem;">
-            <img src="./images/profile.jpeg" class="card-img-top" alt="moon">
-
-            <div class="card-body">
-                <h5 class="card-title">Stacy Yoshimitsu</h5>
-                <p class="card-text">Hello, I am a Software Lead Engineer with over 20 years of diverse experience across the full software development lifecycle.  My background spans roles such as Functional Manager, DevOps Lead, Scrum Master, Product Owner, Software Developer, Integration and Test Engineer, Configuration Manager, CAM, BOE Writer, and Proposal Manager.</p>
-
-                <p>Currently, I'm focusing on web development using modern tools like React, Tailwind CSS, and cloud development platforms like DigitalOcean and GitHub Pages.  I enjoy working with students and mentoring them to help them gain real-world experience in Git, Agile, Software Development and processes.</p>
-                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+     
+    <div class="container d-flex flex-wrap justify-content-evenly">
+        <form>
+            <div class="mb-3">
+                <h3>Contact Me</h3>
             </div>
-        </div>
-
+            <div class="mb-3">
+                <label for="fullName" class="form-label">Full Name</label>
+                <input type="email" class="form-control" id="fullName" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+                <label for="inputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+                <label for="textArea1" class="form-label">Comments</label>
+                <textarea class="form-control" id="textArea1" rows="10"></textarea>
+            </div>
+            <!-- <div class="mb-3 form-check">
+                <input type="check1" class="form-check-input" id="check1">
+                <label class="form-check-label" for="check1">Check me out</label>
+            </div> -->
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
     </div>
-    <!-- Card Ends -->
-
-
 
 </body>
 
